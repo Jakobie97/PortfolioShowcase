@@ -1,0 +1,55 @@
+body{
+    margin: auto;
+}
+ul {
+
+    padding: 0%;
+
+}
+h1 {
+    margin-left: 10px;
+}
+#nav ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 5%;
+   
+    font-family: oswald;
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 127, 247), rgb(0, 102, 255));
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 50% 2px;
+    transition: background-size .5s ease;
+    
+}
+
+#nav ul li:hover {
+    background-size: 100% 2px;
+}
+
+#projectCard {
+   display: inline-block;
+   width: 47%;
+   margin-left: 10px;
+   margin-bottom: 25px;
+  
+}
+#projectCard2 {
+    display: inline-block;
+    width: 47%;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    
+ }
+
+#projectCard p {
+   
+    margin-right: 80px;
+   
+ }
+
+ #projectCard2 p {
+     margin-right: 80px;
+ }
+
