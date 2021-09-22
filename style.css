@@ -1,55 +1,109 @@
-body{
-    margin: auto;
-}
-ul {
-
-    padding: 0%;
-
-}
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Open+Sans");
 h1 {
-    margin-left: 10px;
+  margin-left: 80px;
 }
 #nav ul li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 5%;
-   
-    font-family: oswald;
-    text-decoration: none;
-    background-image: linear-gradient(to right, rgb(0, 127, 247), rgb(0, 102, 255));
-    background-position: bottom left;
-    background-repeat: no-repeat;
-    background-size: 50% 2px;
-    transition: background-size .5s ease;
-    
+  list-style-type: none;
+  display: inline;
+  margin-right: 0%;
+  margin-left: 30px;
+
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  text-decoration: none;
+  background-image: linear-gradient(to right, #007ff7, rgb(0, 102, 255));
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 50% 2px;
+  transition: background-size 0.5s ease;
 }
 
 #nav ul li:hover {
-    background-size: 100% 2px;
+  background-size: 100% 2px;
 }
 
-#projectCard {
-   display: inline-block;
-   width: 47%;
-   margin-left: 10px;
-   margin-bottom: 25px;
-  
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 80px;
 }
-#projectCard2 {
-    display: inline-block;
-    width: 47%;
-    margin-left: 60px;
-    margin-bottom: 25px;
-    
- }
 
-#projectCard p {
-   
-    margin-right: 80px;
-   
- }
+.square:hover {
+  -webkit-transform: translate(20px, -10px);
+  -ms-transform: translate(10px, -10px);
+  transform: translate(10px, -10px);
+  -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
 
- #projectCard2 p {
-     margin-right: 80px;
- }
+.square {
+  width: 460px;
+  height: 430px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #d9dbdf;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 
+.mask {
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+}
+
+img {
+  width: 460px;
+}
+
+.h1 {
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+}
+p {
+  text-align: justify;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #c8c8c8;
+  line-height: 18px;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  width: 90px;
+  padding: 10px 18px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 70px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "merriweather";
+  border-radius: 15px;
+
+  background-image: linear-gradient(to right, #007ff7, rgb(0, 102, 255));
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 50% 2px;
+  transition: background-size 0.5s ease;
+}
+
+.button:hover {
+  background-size: 100% 2px;
+}
+
+div {
+  display: inline-block;
+}
