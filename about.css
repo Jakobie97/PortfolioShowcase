@@ -1,0 +1,11 @@
+hr {
+  border: 1px solid #0066ff;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+p {
+  margin-left: 80px;
+  margin-right: 80px;
+  color: black;
+  font-size: larger;
+}
