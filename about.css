@@ -8,4 +8,11 @@ p {
   margin-right: 80px;
   color: black;
   font-size: larger;
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+img {
+  margin-left: 80px;
+  margin-right: 80px;
 }
