@@ -113,20 +113,12 @@ div {
   display: inline-block;
 }
 
-/* swup click transition  */
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: blue;
-}
-
-.transition-wipe {
-  transition: 0.7s cubic-bezier(0, 0, 0.58, 1);
-  transform: scaleX(0);
-}
-
-html.is-animating .transition-wipe {
-  transform: scaleX(1);
+@media only screen and (max-width: 768px) {
+  *, html, body, .row {
+     margin-left:0 !important;
+     margin-right:0 !important;
+     padding-left:0 !important;
+     padding-right:0 !important;
+  }
 }
