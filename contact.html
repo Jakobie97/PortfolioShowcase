@@ -29,31 +29,20 @@
 
         <h1>Contact</h1>
         <hr class="line">
-
-        <!-- <div id="links">
-            <h2>Get In Touch</h2>
-
-            <i class="fas fa-mobile-alt"></i><a href=""> 949-294-9692</a><br>
-            <i class="fas fa-envelope-open-text"></i><a href=""> JacobTStockwell@gmail.com</a><br>
-            <i class="fab fa-linkedin"></i><a href=""> LinkedIn</a><br>
-            <i class="fab fa-github-alt"></i><a href=""> github</a>
-
-
-        </div> -->
-    
-
     
         <div id="FormContainer">
             <h2 style="margin-left: 80px;">Send me a Message</h2>
-        
-            <input type="text" placeholder="Name" style="margin-left: 80px">
-            <input type="text" placeholder="Email"><br>
-            <textarea rows="10" cols="46" placeholder="Message" style="margin-left: 80px"></textarea><br>
-            <button style="margin-left: 80px">Send</button>
-            
-            
+            <form action="https://formsubmit.co/JacobTstockwell@gmail.com" method="post">
 
-        
+                <input type="text" placeholder="Name" style="margin-left: 80px" required>
+                <input type="text" placeholder="Email" required><br>
+
+                <input type="hidden" name="_subject" value="Hi, I viewed your website!">
+                <input type="hidden" name="_next" value="https://jacobstockwell.netlify.app/thanks.html">
+
+                <textarea rows="10" cols="46" placeholder="Message" style="margin-left: 80px" required></textarea><br>
+                <button type="submit" style="margin-left: 80px">Send</button>
+            </form>      
         
         </div><br>
 
@@ -67,16 +56,6 @@
         
         
         </div>
-
-        
-        
-
-            
-
-
-       
-        
-
 
     </body>
 
