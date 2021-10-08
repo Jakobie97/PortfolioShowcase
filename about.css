@@ -16,3 +16,9 @@ img {
   margin-left: 80px;
   margin-right: 80px;
 }
+
+.profile {
+  width: 20%;
+  border-radius: 50%;
+  float: left;
+}
