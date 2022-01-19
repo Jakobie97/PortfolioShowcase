@@ -18,7 +18,17 @@ img {
 }
 
 .profile {
-  width: 20%;
+  width: 40%;
+
   border-radius: 50%;
   float: left;
+}
+
+@media only screen and (max-width: 680px) {
+  .profile {
+    width: 100%;
+  }
+  p {
+    padding-left: 50px;
+  }
 }
