@@ -46,6 +46,7 @@ ul li:hover {
 .icon a {
   color: black;
   text-decoration: none;
+  margin-top: 5%;
   margin-left: 10px;
 
   display: inline-block;
@@ -91,6 +92,7 @@ ul li:hover {
 .square p, .square .h2 {
   margin: 10px;
 }
+
 
 
 
