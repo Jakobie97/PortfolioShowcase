@@ -10,7 +10,8 @@ body{
   height: calc(100vh - 8em);
   /* padding: 4em; */
   color: rgba(0, 0, 0, 0.75);
-  font-family: 'Anonymous Pro', monospace;  
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-image: url(/img/Cloudy.svg);
   background-repeat: no-repeat;
 }
@@ -87,6 +88,10 @@ ul li:hover {
 
 }
 
+.square p, .square .h2 {
+  margin: 10px;
+}
+
 
 
 
@@ -111,7 +116,7 @@ ul li:hover {
 }
 /* Animation */
 .anim-typewriter{
-  animation: typewriter 2.5s steps(44) 3s 1 normal both,
+  animation: typewriter 2.5s steps(44) 1s 1 normal both,
              blinkTextCursor 1100ms steps(34) infinite normal;
 }
 @keyframes typewriter{
