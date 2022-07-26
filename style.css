@@ -107,7 +107,7 @@ ul li:hover {
     top: 50%;  
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
@@ -124,7 +124,7 @@ ul li:hover {
   to{width: 17em;}
 }
 @keyframes blinkTextCursor{
-  from{border-right-color: rgba(255, 255, 255, 0.75);}
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
   to{border-right-color: rgb(255, 255, 255);}
 }
 
