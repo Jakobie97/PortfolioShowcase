@@ -39,6 +39,9 @@ ul li:hover {
   background-size: 50% 2px;
 }
 
+#bars {
+  display: none;
+}
 
 
 /* icons */
@@ -89,11 +92,17 @@ ul li:hover {
 
 }
 
+.work_container a h1 {
+  font-size: 100px;
+}
+
 .square p, .square .h2 {
   margin: 10px;
 }
 
-
+.square img {
+  width: 455px
+}
 
 
 
@@ -335,6 +344,10 @@ ul li:hover {
   margin-right: 10%;
 }
 
+#about h1 {
+  margin-left: 40px
+}
+
 /* */
 
 form {
@@ -346,4 +359,49 @@ form {
 
 form .form-group {
   margin: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    background-position: 20% 50%;
+  }
+
+  .LandingScreen p {
+    font-size: 22px;;
+  }
+
+  .work_container {
+    margin-top: 250%;
+  }
+
+  .work_container a h1, #about h1 {
+    font-size: 60px;
+  }
+
+  .container {
+    display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .square {
+    width: 96%;
+  }
+  .square img {
+    width: 335px;
+  }
+
+  #about h1 {
+    margin-left: 15px;
+  }
+ 
+  .about_container {
+    display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 20px;
+    padding: 20px;
+  }
+
 }
