@@ -348,6 +348,12 @@ ul li:hover {
   margin-left: 40px
 }
 
+/*  */
+
+#contact h1 {
+  font-size: 100px
+}
+
 /* */
 
 form {
@@ -375,7 +381,7 @@ form .form-group {
     margin-top: 250%;
   }
 
-  .work_container a h1, #about h1 {
+  .work_container a h1, #about h1, #contact h1 {
     font-size: 60px;
   }
 
@@ -393,7 +399,7 @@ form .form-group {
     width: 335px;
   }
 
-  #about h1 {
+  #about h1, #contact h1 {
     margin-left: 15px;
   }
  
