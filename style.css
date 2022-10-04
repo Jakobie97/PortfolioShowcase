@@ -362,7 +362,10 @@ ul li:hover {
 }
 
 #about h1 {
-  margin-left: 40px
+  margin-left: 40px;
+  font-size: 100px;
+
+
 }
 
 /*  */
