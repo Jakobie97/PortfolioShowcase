@@ -93,6 +93,7 @@ ul li:hover {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
   padding: 20px;
+  overflow: hidden;
 }
 
 .work {
@@ -335,7 +336,7 @@ ul li:hover {
 /* -----------card -------------- */
 
 .square {
-  width: 460px;
+  width: 455px;
   height: 500px;
   background: white;
   border-radius: 4px;
