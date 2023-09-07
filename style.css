@@ -100,6 +100,7 @@ ul li:hover {
     margin-top: 25%;
 }
 
+
 .px-2 {
   padding-right: 6.5rem!important;
   padding-left: 0.5rem!important;
@@ -122,6 +123,31 @@ ul li:hover {
   width: 455px
 }
 
+.square .tags {
+ display: grid;
+    grid-template-columns: .2fr .2fr .3fr;
+    grid-gap: 0px; 
+  text-align: center;
+}
+
+.square .tags .one {
+  color: rgb(227, 76, 38);
+  border: 2px solid rgb(227, 76, 38);
+  border-radius: 10px;
+}
+
+.square .tags .two {
+  color: rgb(43 101 241);
+  border: 2px solid rgb(43 101 241);
+  border-radius: 10px;
+}
+
+.square .tags .three {
+  color: rgb(50, 51, 48);
+  border: 2px solid rgb(50, 51, 48);
+  
+  border-radius: 10px;
+}
 
 
 /*---------------------- Type writer affect -------------------------------------------------*/
