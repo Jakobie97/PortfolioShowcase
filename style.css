@@ -102,7 +102,7 @@ ul li:hover {
   display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 200px;
-  padding: 20px;
+
   overflow: hidden;
  
 }
@@ -118,7 +118,7 @@ ul li:hover {
 }
 
 .work_container {
-  margin-top: 60%;
+  margin-top: 50%;
  
 
 }
@@ -383,8 +383,8 @@ ul li:hover {
 /* -----------card -------------- */
 
 .square {
-  width: 455px;
-  height: 500px;
+  width: 555px;
+  height: 600px;
   
   border-radius: 4px;
   border-style: solid;
@@ -452,9 +452,10 @@ form .form-group {
 
   .container {
     display: grid;
-      grid-template-columns: 1fr;
+      /* grid-template-columns: 1fr 1fr; */
       grid-gap: 20px;
-    padding: 20px;
+      justify-content: space-around ;
+    
   }
   
   .square {
