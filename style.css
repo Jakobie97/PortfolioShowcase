@@ -188,7 +188,7 @@ ul li:hover {
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(0, 0, 0, 0.75);
-    font-size: 70px;
+    font-size: 50px;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
@@ -221,6 +221,7 @@ ul li:hover {
 	width: 24px;
 	height: 100px;
 	margin-top: 5px;
+  
 }
 
 
@@ -297,6 +298,7 @@ ul li:hover {
   transform: none;
   border: 2px solid rgb(0, 0, 0);
   top: 170px;
+  font-size: 50px;
 }
 
 .wheel {
