@@ -9,9 +9,9 @@ html{
 body{
   height: calc(100vh - 8em);
   /* padding: 4em; */
-  color: rgba(0, 0, 0, 0.75);
+  color: black;
   font-family: 'Lato', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Apercu";
   background-image: url(/img/Cloudy.svg);
   background-repeat: no-repeat;
 
@@ -49,6 +49,7 @@ ul li {
     transition: background-size 0.5s ease;
 
     animation: fadeIn 1s;
+  font-size: 30px;
 
 }
 
@@ -67,7 +68,7 @@ ul li:hover {
   color: black;
   text-decoration: none;
   margin-top: 5%;
-  margin-left: 10px;
+  margin-left: 25px;
 
   display: inline-block;
   position: relative;
@@ -86,18 +87,28 @@ ul li:hover {
   background-size: 100% 2px;
 }
 
+.icon {
+  font-size: 20px;
+}
+
+.project_title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;;
+}
 
 /* --------------------------------work showcase ---------------------------------------------- */
 .container {
   display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 200px;
   padding: 20px;
   overflow: hidden;
+ 
 }
 
 .work {
-    margin-top: 25%;
+  margin-top: 25%;
 }
 
 
@@ -108,6 +119,7 @@ ul li:hover {
 
 .work_container {
   margin-top: 60%;
+ 
 
 }
 
@@ -115,12 +127,22 @@ ul li:hover {
   font-size: 100px;
 }
 
-.square p, .square .h2 {
-  margin: 10px;
+
+
+.square h2 {
+  margin-top: 30px;
 }
 
 .square img {
-  width: 455px
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+.square p {
+  display:inline-block;
+  font-size: 15px;
+  margin-top: 20px;
 }
 
 .square .tags {
@@ -128,26 +150,25 @@ ul li:hover {
     grid-template-columns: .2fr .2fr .3fr;
     grid-gap: 0px; 
   text-align: center;
+  margin-left: 10px;
 }
 
 .square .tags .one {
-  color: rgb(227, 76, 38);
+  color: white;
+  background-color: rgb(227, 76, 38);
   border: 2px solid rgb(227, 76, 38);
   border-radius: 10px;
 }
 
 .square .tags .two {
-  color: rgb(43 101 241);
+  color: white;
+  background-color: rgb(43 101 241);
   border: 2px solid rgb(43 101 241);
   border-radius: 10px;
+  margin-left: 10px;
 }
 
-.square .tags .three {
-  color: rgb(50, 51, 48);
-  border: 2px solid rgb(50, 51, 48);
-  
-  border-radius: 10px;
-}
+
 
 
 /*---------------------- Type writer affect -------------------------------------------------*/
@@ -364,14 +385,11 @@ ul li:hover {
 .square {
   width: 455px;
   height: 500px;
-  background: white;
+  
   border-radius: 4px;
-  box-shadow: 0px 20px 50px #d9dbdf;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  margin-bottom: 30px;
-
+  border-style: solid;
+  border-color: black;
+  border-radius:  30px;;
   
 }
 
@@ -442,9 +460,7 @@ form .form-group {
   .square {
     width: 96%;
   }
-  .square img {
-    width: 335px;
-  }
+  
 
   #about h1, #contact h1 {
     margin-left: 15px;
