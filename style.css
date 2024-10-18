@@ -12,8 +12,7 @@ body{
   height: calc(100vh - 8em);
   
   color: black;
-  font-family: 'Lato', sans-serif;
-  font-family: "Apercu";
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* #9ebefd */
   background-color: #6195fd;
  
@@ -21,7 +20,6 @@ body{
 
 h1 {
   color: white;
-  font-weight: bold;
 }
 
 /* body fade in */
